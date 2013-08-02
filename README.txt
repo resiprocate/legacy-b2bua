@@ -2,21 +2,24 @@
 Introduction
 ============
 
-This is a reSIProcate based B2BUA library.
+This is a reSIProcate-based B2BUA library.
 
 The library is libb2bua.so
 
 It is built on top of reSIProcate's dialog usage manager (DUM)
 
+It was distributed with reSIProcate releases up to and including
+the reSIProcate 1.8.x release series.  It is known to work with those
+releases but may not work with releases beyond 1.8.x
+
 Building
 ========
 
-In the main reSIProcate directory, when you run configure, you
-must explicitly request that the library is built:
+TODO: a configure.ac script needs to be created for this project.
 
-./configure --with-b2bua
-
-NOTE:  configure does NOT include the B2BUA by default.
+It can probably be created by copying the configure.ac script from
+reSIProcate itself and removing many things that don't relate to this
+B2BUA project.
 
 Background and technical notes
 ==============================
@@ -51,6 +54,7 @@ Some key points about this code:
    http://lists.rtpproxy.org/pipermail/users/2008-May/000016.html
 
 Daniel Pocock
+http://danielpocock.com
 daniel@pocock.com.au
 
 
