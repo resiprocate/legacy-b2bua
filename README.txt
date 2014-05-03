@@ -1,4 +1,18 @@
 
+
+=== THIS PROJECT HAS BEEN DEPRECATED ===
+
+Please consider using the reConServer project instead - it is
+far more powerful and includes a B2BUA module:
+
+   https://github.com/resiprocate/reConServer
+
+
+
+
+
+
+
 Introduction
 ============
 
